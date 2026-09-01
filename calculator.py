@@ -28,7 +28,7 @@ while True:
         b=int(input("Enter Your Second Number:"))
         print("=======================")
         print("Div is:",a/b)
-        print("=======================")
+        print("=======================") 
     else:
         print("=======================")
         print("Good Bye")
