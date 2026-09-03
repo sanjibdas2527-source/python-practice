@@ -15,7 +15,7 @@ Chem=int(input("Enter the Chemistry mark :"))
 
 print("**********************TOTAL MARK***********************")
 N=Ba+En+Math+phy+Chem
-print("Total mark=",Ba+En+Math+phy+Chem)
+print("Total mark=",N)
 
 
 
