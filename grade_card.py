@@ -75,7 +75,7 @@ grade(Chem)
 
 
 print("*************DISPLAY PASS  OR FAIL***************")
-if N<=500 and N>=320:
+if N<=500 and N>=250:
     print("pass")
 else:
     print("Fail")    
