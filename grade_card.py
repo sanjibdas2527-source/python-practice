@@ -31,42 +31,10 @@ print("Parcentage=",parcen,"%")
 print("*******************SUBJECT GRADE******************************")
 
 
+    
+               
 
-if (Ba<=100 and Ba>=90):
-    print("Excellent")
-    print("Grade= AA")
-elif Ba<=89 and Ba>=80:
-    print("Very Good")
-    print("Grade=A+")
-elif Ba<=79 and Ba>=70:
-    print("Good")
-    print("Grade=A")
-elif Ba<=69 and Ba>=60:
-    print("Grade=B")  
-elif Ba<=59 and Ba>=50:
-    print("Grade=C")
-elif Ba<=49 and Ba>=30:
-    print("Grade=D")
-else:
-    print("Fail")                      
-
-if (En<=100 and En>=90):
-    print("Excellent")
-    print("Grade= AA")
-elif En<=89 and En>=80:
-    print("Very Good")
-    print("Grade=A+")
-elif En<=79 and En>=70:
-    print("Good")
-    print("Grade=A")
-elif En<=69 and En>=60:
-    print("Grade=B")  
-elif En<=59 and En>=50:
-    print("Grade=C")
-elif En<=49 and En>=30:
-    print("Grade=D")
-else:
-    print("Fail")                      
+          
 
 if (Math<=100 and Math>=90):
     print("Excellent")
