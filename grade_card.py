@@ -30,69 +30,51 @@ print("Parcentage=",parcen,"%")
 
 print("*******************SUBJECT GRADE******************************")
 
+def grade(marks):
+    if marks <= 100 and marks >= 90:
+        print("Excellent")
+        print("Grade = AA")
 
-    
-               
+    elif marks <= 89 and marks >= 80:
+        print("Very Good")
+        print("Grade = A+")
 
-          
+    elif marks <= 79 and marks >= 70:
+        print("Good")
+        print("Grade = A")
 
-if (Math<=100 and Math>=90):
-    print("Excellent")
-    print("Grade= AA")
-elif Math<=89 and Math>=80:
-    print("Very Good")
-    print("Grade=A+")
-elif Math<=79 and Math>=70:
-    print("Good")
-    print("Grade=A")
-elif Math<=69 and Math>=60:
-    print("Grade=B")  
-elif Math<=59 and Math>=50:
-    print("Grade=C")
-elif Math<=49 and Math>=30:
-    print("Grade=D")
-else:
-    print("Fail")                      
+    elif marks <= 69 and marks >= 60:
+        print("Grade = B")
 
-if (phy<=100 and phy>=90):
-    print("Excellent")
-    print("Grade= AA")
-elif phy<=89 and phy>=80:
-    print("Very Good")
-    print("Grade=A+")
-elif phy<=79 and phy>=70:
-    print("Good")
-    print("Grade=A")
-elif phy<=69 and phy>=60:
-    print("Grade=B")  
-elif phy<=59 and phy>=50:
-    print("Grade=C")
-elif phy<=49 and phy>=30:
-    print("Grade=D")
-else:
-    print("Fail")                      
+    elif marks <= 59 and marks >= 50:
+        print("Grade = C")
 
-if (Chem<=100 and Chem>=90):
-    print("Excellent")
-    print("Grade= AA")
-elif Chem<=89 and Chem>=80:
-    print("Very Good")
-    print("Grade=A+")
-elif Chem<=79 and Chem>=70:
-    print("Good")
-    print("Grade=A")
-elif Chem<=69 and Chem>=60:
-    print("Grade=B")  
-elif Chem<=59 and Chem>=50:
-    print("Grade=C")
-elif Chem<=49 and Chem>=30:
-    print("Grade=D")
-else:
-    print("Fail")       
+    elif marks <= 49 and marks >= 30:
+        print("Grade = D")
+
+    else:
+        print("Fail")
 
 
 
-print("*************DISPLay PASS  OR FAIL***************")
+print("Bengali:")
+grade(Ba)
+
+print("English:")
+grade(En)
+
+print("Math:")
+grade(Math)
+
+print("Physics:")
+grade(phy)
+
+print("Chemistry:")
+grade(Chem)
+
+
+
+print("*************DISPLAY PASS  OR FAIL***************")
 if N<=500 and N>=320:
     print("pass")
 else:
