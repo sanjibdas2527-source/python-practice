@@ -33,7 +33,7 @@ while True:
             print("Name not found")
     elif ch==4:
         if dob:
-            print("\n--- All Records ---")
+            
             for name, date in dob.items():
                 print(f"{name} : {date}")
         else:
