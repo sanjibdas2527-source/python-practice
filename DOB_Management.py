@@ -17,6 +17,7 @@ while True:
             dob[name]=date
             print("Registered Successfully")
     elif ch==2:
+        name=input("Enter the name you want to delete:")
         
         if name in dob:
             dob.pop(name,None)
